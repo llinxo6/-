@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>RPG 遊戲專題展示</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 40px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    .button {
+      display: inline-block;
+      margin: 20px 10px 0 0;
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>文字式 RPG 遊戲專題</h1>
+    <p>這是一款使用 Python 製作的 RPG 遊戲，具備以下特色功能：</p>
+    <ul>
+      <li>回合制戰鬥系統</li>
+      <li>職業選擇與轉職功能</li>
+      <li>技能樹與升級系統</li>
+      <li>道具與裝備購買系統</li>
+      <li>任務與怪物擊殺任務</li>
+    </ul>
+
+    <p>此版本為文字介面，建議使用 Google Colab 進行遊玩：</p>
+    <a href="https://colab.research.google.com/" class="button" target="_blank">前往 Google Colab</a>
+    <a href="game.py" class="button" download>下載程式碼</a>
+
+    <p style="margin-top: 30px;">你也可以在 GitHub Pages 上看到這個展示頁面，並分享給他人。</p>
+  </div>
+</body>
+</html>
